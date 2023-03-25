@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Gilroy';
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.post {
+    display: flex;
+    gap: 117px;
+    justify-content: center;
+}
+
+.post h4 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #707070;
+    margin-bottom: 12px;
+}
+
+.post h1 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 79px;
+    color: #000000;
+    margin-bottom: 55px;
+}
+
+.footer {
+    display: flex;
+    gap: 34px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h4 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #707070;
+    margin-bottom: 1px;
+}
+
+.footer h1 {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    color: #000000;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    width: 20px;
+    row-gap: 6px;
+}
+
+button {
+    border: 0px;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.top {
+    width: 350px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+
+    position: absolute;
+    top: 0px;
+    left: 79%;
+    display: none;
+}
+
+.b button {
+    height: 50px;
+    width: 300px;
+    background: black;
+    color: white;
+    border-radius: 14px;
+    margin-bottom: 50px;
+}
+
+.b button:hover {
+    background: white;
+    color: black;
+    height: 50px;
+    width: 300px;
+    border-radius: 14px;
+
+}
+
+.top h1 {
+    margin-bottom: 31px;
+    color: white;
+}
+
+
+.top a {
+    padding-left: 50px;
+    margin-top: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    text-decoration: none;
+}
+
+.modal_bg {
+    width: 100%;
+    height: 140%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, .6);
+    backdrop-filter: blur(10px);
+    display: none;
+}
+
+.o img {
+    margin-left: 295px;
+}
